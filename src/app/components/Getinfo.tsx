@@ -27,16 +27,14 @@ export default function GetInfo(): JSX.Element {
 
     fetchMain();
   }, []);
-
-  console.log(typeof(main))
+  
   return (
-    <div className="flex flex-col justify-center items-center">
-      <h1>Informações da API</h1>
-      <ul className="bg-white text-black p-4 rounded shadow mb-4 flex flex-wrap gap-2">
+    <div>
+      <ul className="bg-white text-black p-4 rounded-2xl shadow mb-4 flex flex-wrap gap-2 max-w-6xl">
           <li>
-            <h2 className="font-bold">Info</h2>
-            <p>Importancia: {main.Main.Importancia}</p>
-            <p>Dever: {main.Main.Dever}</p>
+            <h2 className="font-bold">Qual a importância e o nosso dever?</h2><br />
+            <p><strong>Importancia</strong>: {main?.Main?.Importancia}</p>
+            <p><strong>Dever</strong>: {main?.Main?.Dever}</p>
           </li>
       </ul>
     </div>

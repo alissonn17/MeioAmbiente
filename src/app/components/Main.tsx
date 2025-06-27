@@ -5,7 +5,7 @@ interface mainprop{
 }
 
 export default function Main({children}: mainprop): JSX.Element{
-    return <main>
+    return <main className="flex flex-col items-center">
         {children}
     </main>
 }

@@ -29,7 +29,10 @@ body {
 }
 
 main {
-  height: 100vh;
+  display: flex;
+  flex-grow: 1 1 0;
+  padding-top: 20px;
+  padding: 5px;
   background: linear-gradient(45deg, rgb(52, 133, 255), rgb(52, 231, 255), rgb(52, 133, 255));
   color: purple;
 }
