@@ -29,10 +29,10 @@ export default function GetInfo(): JSX.Element {
   }, []);
   
   return (
-    <div>
-      <ul className="bg-white text-black p-4 rounded-2xl shadow mb-4 flex flex-wrap gap-2 max-w-6xl">
+    <div className="bg-white text-black p-4 rounded-2xl shadow mb-4">
+      <h1 className="font-bold">Qual a importância e o nosso dever?</h1><br />
+      <ul className=" flex flex-wrap gap-2 max-w-6xl">
           <li>
-            <h2 className="font-bold">Qual a importância e o nosso dever?</h2><br />
             <p><strong>Importancia</strong>: {main?.Main?.Importancia}</p>
             <p><strong>Dever</strong>: {main?.Main?.Dever}</p>
           </li>

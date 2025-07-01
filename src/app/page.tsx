@@ -14,37 +14,48 @@ import Namecountry from "./components/getcountry/countryname"
 
 export default function Home(){
   return <>
-    <Header />
+    <Header ></Header>
     <Main>
-      <h1 className="font-bold">API_Meio Ambiente.</h1>
-      <p className="text-black max-w-7xl">A seguir temos dados sobre algumas cidades e países e como ambos ajudam o meio-ambiente com seus destaques tecnológicos ou outras ações a favor do meio-ambiente, se quiser pode pesquisar por alguma cidade ou país específico.</p>
-      <Section title="Cidades">
-        <GetCity />
-      </Section><br />
-      <Section title="Destaques das cidades">
-        <GetCides/>
-      </Section><br />
-      <Section title="Descrição dos destaques">
-        <Getcitdescri />
-      </Section><br />
-      <Section title="Procure por uma cidade">
-        <Namecity />
-      </Section><br />
-      <Section title="Países">
-        <GetCountry />
-      </Section><br />
-      <Section title="Destaques dos países">
-        <GetCoudes />
-      </Section><br />
-      <Section title="Descrição dos destaques dos países">
-        <Getdescri />
-      </Section><br />
-      <Section title="Procure por um país">
-        <Namecountry />
-      </Section><br />
-      <Section title="Sobre">
+      <h1 id="titulo" className="font-bold">API_Meio Ambiente.</h1>
+      <p className="text-black max-w-7xl">A seguir temos dados sobre algumas cidades e países e como ambos ajudam o meio-ambiente com seus destaques tecnológicos ou outras ações a favor do meio-ambiente, se quiser pode pesquisar por alguma cidade ou país específico.</p><br />
+
+      <section id="cidades" className="flex flex-col justify-center items-center border-2 rounded-2xl max-w-7xl p-1.5">
+          <h1 className="font-bold">Dados sobre as Cidades.</h1>
+          <Section>
+            <GetCity />
+          </Section><br />
+          <Section>
+            <GetCides/>
+          </Section><br />
+          <Section>
+            <Getcitdescri />
+          </Section><br />
+          <Section>
+            <Namecity />
+          </Section><br />
+      </section><br />
+
+      <section id="paises" className="flex flex-col justify-center items-center border-2 rounded-2xl max-w-7xl p-1.5">
+        <h1 className="font-bold">Dados sobre os Países.</h1>
+        <Section>
+          <GetCountry />
+        </Section><br />
+        <Section>
+          <GetCoudes />
+        </Section><br />
+        <Section>
+          <Getdescri />
+        </Section><br />
+        <Section>
+          <Namecountry />
+        </Section><br />
+      </section><br />
+
+      <section id="sobre" className="flex flex-col justify-center items-center border-2 rounded-2xl max-w-7xl p-1.5">
+        <h1 className="font-bold">Sobre</h1>
         <GetInfo />
-      </Section>
+      </section>
+      
     </Main>
     <Footer />
   </>

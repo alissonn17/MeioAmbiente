@@ -39,8 +39,8 @@ export default function GetCoudes(): JSX.Element {
     <div>
       <ul className="bg-cyan-100 text-black p-4 rounded-2xl shadow mb-4 flex flex-wrap gap-2 max-w-6xl">
           <li>
-            <h2 className="font-bold">Países e seus destaques tecnológicos:</h2><br />
-            <p><strong>São Paulo</strong>: {country?.country?.Suecia}</p>
+            <h1 className="font-bold">Países e seus destaques tecnológicos:</h1><br />
+            <p><strong>Suécia</strong>: {country?.country?.Suecia}</p>
             <p><strong>Noruega</strong>: {country?.country?.Noruega}</p>
             <p><strong>Dinamarca</strong>: {country?.country?.Dinamarca}</p>
             <p><strong>Alemanha</strong>: {country?.country?.Alemanha}</p>

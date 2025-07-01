@@ -36,3 +36,27 @@ main {
   background: linear-gradient(45deg, rgb(52, 133, 255), rgb(52, 231, 255), rgb(52, 133, 255));
   color: purple;
 }
+
+#titulo{
+    font-size: 24px;
+  }
+
+@media (max-width:600px) {
+  h1{
+    font-size: 20px;
+  }
+
+  #titulo{
+    font-size: 26px;
+  }
+}
+
+@media (min-width:1280px) {
+  h1{
+    font-size: 22px;
+  }
+
+  #titulo{
+    font-size: 30px;
+  }
+}

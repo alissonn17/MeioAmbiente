@@ -60,7 +60,7 @@ export default function Getcitdescri(): JSX.Element {
     <div>
       <ul className="bg-white text-black p-4 rounded-2xl shadow mb-4 flex flex-wrap gap-2 max-w-6xl">
           <li>
-            <h2 className="font-bold">Descrição dos destaques tecnológicos de cada cidade:</h2><br />
+            <h1 className="font-bold">Descrição dos destaques tecnológicos de cada cidade:</h1><br />
             <p><strong>São Paulo</strong>: {city?.city?.["Sao Paulo"].descricao}</p>
             <p><strong>Rio De Janeiro</strong>: {city?.city?.["Rio de Janeiro"].descricao}</p>
             <p><strong>Curitiba</strong>: {city?.city?.Curitiba.descricao}</p>

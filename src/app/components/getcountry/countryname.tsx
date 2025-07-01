@@ -13,7 +13,8 @@ export default function Namecountry(){
     }
 
     return (
-        <section className="bg-amber-50 flex flex-col items-center p-4">
+        <section className="bg-amber-50 flex flex-col rounded-2xl items-center p-4">
+            <h1 className="font-bold">Procure por um país.</h1><br />
             <div>
                 <label className="font-bold" htmlFor="country">País: </label>
                 <input className="bg-blue-300 rounded-2xl border-1 border-black p-1" 
@@ -23,7 +24,7 @@ export default function Namecountry(){
                 placeholder="Digite algo" 
                 onChange={(country) => setCountry(country.target.value)}/>
             </div><br />
-            <button className="bg-blue-200 border-1 border-black rounded-2xl p-1" type="submit" onClick={getbutton}>Enviar</button><br />
+            <button className="bg-blue-200 border-1 border-black rounded-2xl p-1" type="submit" onClick={getbutton}>Enviar</button>
             {result && <Getcountryparam name={name}/>}
         </section>
     );

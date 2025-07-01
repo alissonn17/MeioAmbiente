@@ -40,7 +40,7 @@ export default function GetCity(): JSX.Element {
     <div>
       <ul className="bg-white text-black p-4 rounded-2xl shadow mb-4 flex flex-wrap gap-2 max-w-6xl">
           <li>
-            <h2 className="font-bold">Cidades e seus habitantes:</h2><br />
+            <h1 className="font-bold">Cidades e seus habitantes:</h1><br />
             <p>São Paulo: {city?.city?.["Sao Paulo"]}</p>
             <p>Rio De Janeiro: {city?.city?.["Rio de Janeiro"]}</p>
             <p>Curitiba: {city?.city?.Curitiba}</p>

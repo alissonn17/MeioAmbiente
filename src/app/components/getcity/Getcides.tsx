@@ -60,7 +60,7 @@ export default function GetCides(): JSX.Element {
     <div>
       <ul className="bg-white text-black p-4 rounded-2xl shadow mb-4 flex flex-wrap gap-2 max-w-6xl">
           <li>
-            <h2 className="font-bold">Cidades e seus destaques tecnológicos:</h2><br />
+            <h1 className="font-bold">Cidades e seus destaques tecnológicos:</h1><br />
             <p><strong>São Paulo</strong>: {city?.city?.["Sao Paulo"].destaqueTecnologico}</p>
             <p><strong>Rio De Janeiro</strong>: {city?.city?.["Rio de Janeiro"].destaqueTecnologico}</p>
             <p><strong>Curitiba</strong>: {city?.city?.Curitiba.destaqueTecnologico}</p>
