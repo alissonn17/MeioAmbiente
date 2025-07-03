@@ -29,7 +29,7 @@ export default function GetInfo(): JSX.Element {
   }, []);
   
   return (
-    <div className="bg-white text-black p-4 rounded-2xl shadow mb-4">
+    <div id="last" className="bg-white text-black p-4 rounded-2xl shadow mb-4">
       <h1 className="font-bold">Qual a importância e o nosso dever?</h1><br />
       <ul className=" flex flex-wrap gap-2 max-w-6xl">
           <li>

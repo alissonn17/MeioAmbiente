@@ -26,6 +26,7 @@ body {
   display: flex;
   height: 100vh;
   flex-direction: column;
+  width: 100vw;
 }
 
 main {
@@ -35,6 +36,22 @@ main {
   padding: 5px;
   background: linear-gradient(45deg, rgb(52, 133, 255), rgb(52, 231, 255), rgb(52, 133, 255));
   color: purple;
+}
+
+#last:hover, #paises div ul:hover, #cidades div ul:hover{
+  background-color:  aliceblue;
+  border: 2px solid black;
+  transform: scale(1.005);
+}
+
+#nav li:hover{
+  border-radius: 5px;
+  background-color: rgb(52, 231, 255);
+}
+
+button:hover{
+  background-color: purple;
+  color: #ededed;
 }
 
 #titulo{
