@@ -65,6 +65,7 @@ Para saber mais sobre o Next.js, consulte os seguintes recursos:
 - **Geolocalização e Dados Globais** 🌍  
   Identificação de regiões e comparação entre políticas ambientais ao redor do mundo.
 
+**Postagem no linkedin:** [linkedin](https://www.linkedin.com/posts/alissonsamueldevsa_github-alissonn17meioambiente-miniprojeto-activity-7346916619652059136-DFx0?utm_source=share&utm_medium=member_android&rcm=ACoAAD0N_UAB4tVIyH2Pz6rsCqJXrlJcK8PBsF4)
 
 ## 📦 Dependências
 
