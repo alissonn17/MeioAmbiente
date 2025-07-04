@@ -24,7 +24,7 @@ export default function Namecountry(){
                 placeholder="Digite algo" 
                 onChange={(country) => setCountry(country.target.value)}/>
             </div><br />
-            <button className="bg-blue-200 border-1 border-black rounded-2xl p-1" type="submit" onClick={getbutton}>Enviar</button>
+            <button className="bg-blue-200 border-1 border-black rounded-2xl p-1" type="submit" onClick={getbutton}>Enviar</button><br />
             {result && <Getcountryparam name={name}/>}
         </section>
     );
