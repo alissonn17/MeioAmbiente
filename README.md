@@ -10,9 +10,9 @@ O objetivo principal era cada aluno utilizar a API desenvolvida por si próprio 
 
 ## 🖼️ Screenshots
 
-![Screenshot1](/screenshot1.png)
+![Screenshot1](public/screenshot1.png)
 
-![Screenshot](/screenshot2.png)
+![Screenshot2](public/screenshot2.png)
 
 ## ⚙️Next
 
