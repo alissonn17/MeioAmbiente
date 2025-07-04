@@ -10,7 +10,12 @@ O objetivo principal era cada aluno utilizar a API desenvolvida por si próprio 
 
 ## 🖼️ Screenshots
 
+Site no navegador do PC
+
 ![Screenshot1](public/screenshot1.png)
+
+
+Responsivo sendo usado no mobile
 
 ![Screenshot2](public/screenshot2.png)
 
