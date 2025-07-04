@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌱Meio Ambiente
 
-## Getting Started
+O site meio ambiente é um projeto desenvolvido durante o mini projeto do Módulo 5 do curso de Desenvolvedor WEB Fullstack da PDA.
 
-First, run the development server:
+## 🎯Objetivo
+
+O objetivo principal era cada aluno utilizar a API desenvolvida por si próprio durante o mini projeto do Módulo 4 do mesmo curso, fazendo assim um site que receba dados dessa API.
+
+**🔗Repositório da API no Github:** [API - MeioAmbiente](https://github.com/alissonn17/apiMeioambiente)
+
+## 🖼️ Screenshots
+
+![Screenshot1](/screenshot1.png)
+
+![Screenshot](/screenshot2.png)
+
+## ⚙️Next
+
+Este é um projeto [Next.js](https://nextjs.org) inicializado com [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+### 🏃‍♂️Rodar o projeto
+
+Primeiro, baixe todas as dependências:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm i
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Agora execute o servidor de desenvolvimento: 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash 
+npm run dev 
+# ou 
+yarn dev 
+# ou 
+pnpm dev 
+# ou 
+bun dev 
+``` 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-## Learn More
+### 📚Saiba Mais do Next
 
-To learn more about Next.js, take a look at the following resources:
+Para saber mais sobre o Next.js, consulte os seguintes recursos: 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Documentação do Next.js](https://nextjs.org/docs) - saiba mais sobre os recursos e a API do Next.js. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Aprenda Next.js](https://nextjs.org/learn) - um tutorial interativo do Next.js.
 
-## Deploy on Vercel
+## 📘Sobre
+### 🏷️ Tópicos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Sustentabilidade Ambiental** ♻️  
+  Mapeamento de ações ecológicas implementadas por cidades e nações.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Integração com APIs** 🔗  
+  Consulta a fontes externas para coleta de dados atualizados sobre iniciativas verdes.
+
+- **Geolocalização e Dados Globais** 🌍  
+  Identificação de regiões e comparação entre políticas ambientais ao redor do mundo.
+
+
+## 📦 Dependências
+
+| Pacote       | Versão   |
+|--------------|----------|
+| next         | 15.3.3   |
+| react        | ^19.0.0  |
+| react-dom    | ^19.0.0  |
+
+## 🛠️ Dependências de Desenvolvimento
+
+| Pacote                 | Versão   |
+|------------------------|----------|
+| typescript             | ^5       |
+| @types/node            | ^20      |
+| @types/react           | ^19      |
+| @types/react-dom       | ^19      |
+| tailwindcss            | ^4       |
+| @tailwindcss/postcss   | ^4       |
+| eslint                 | ^9       |
+| eslint-config-next     | 15.3.3   |
+| @eslint/eslintrc       | ^3       |
+
+
+🚀 Requisitos
+
+- Node.js 20+
+- NPM ou Yarn
