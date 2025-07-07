@@ -40,8 +40,9 @@ export default function Getcityparam({name}: paramprop): JSX.Element {
   return (
     <div> {city && (
       <ul className="bg-white text-black p-4 rounded-2xl shadow mb-4 flex flex-wrap gap-2 max-w-6xl">
-          <li>
-            <h2 className="font-bold">Cidades encontrada:</h2><br />
+          <li className="flex flex-col">
+            <h2 className="font-bold">Cidade encontrada:</h2><br />
+            <p className="self-center"><strong>{name}</strong></p>
             <p>{city.CityInfo[0]}</p>
             <p>Destaque tecnológico: {city.CityInfo[1].destaqueTecnologico}</p>
             <p>Descrição: {city.CityInfo[2].descricao}</p>

@@ -36,8 +36,9 @@ export default function Getcountryparam({name}: paramprop): JSX.Element {
   return (
     <div> {country && (
       <ul className="bg-cyan-100 text-black p-4 rounded-2xl shadow mb-4 flex flex-wrap gap-2 max-w-6xl">
-          <li>
-            <h2 className="font-bold">Cidades encontrada:</h2><br />
+          <li className="flex flex-col">
+            <h2 className="font-bold">País encontrado:</h2><br />
+            <p className="self-center"><strong>{name}</strong></p>
             <p>{country.CountryInfo[0]}</p>
             <p>Destaque tecnológico: {country.CountryInfo[1]}</p>
             <p>Descrição: {country.CountryInfo[2]}</p>
