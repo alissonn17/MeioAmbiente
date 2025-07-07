@@ -65,15 +65,21 @@ Para saber mais sobre o Next.js, consulte os seguintes recursos:
 - **Geolocalização e Dados Globais** 🌍  
   Identificação de regiões e comparação entre políticas ambientais ao redor do mundo.
 
-**Postagem no linkedin:** [linkedin](https://www.linkedin.com/posts/alissonsamueldevsa_github-alissonn17meioambiente-miniprojeto-activity-7346916619652059136-DFx0?utm_source=share&utm_medium=member_android&rcm=ACoAAD0N_UAB4tVIyH2Pz6rsCqJXrlJcK8PBsF4)
+- **Valdação com zod** 🦺  
+  Procura de cidade e país usando zod.
+
+**Postagem no linkedin:** [Meio Ambiente](https://www.linkedin.com/posts/alissonsamueldevsa_github-alissonn17meioambiente-miniprojeto-activity-7346916619652059136-DFx0?utm_source=share&utm_medium=member_android&rcm=ACoAAD0N_UAB4tVIyH2Pz6rsCqJXrlJcK8PBsF4)
 
 ## 📦 Dependências
 
-| Pacote       | Versão   |
-|--------------|----------|
-| next         | 15.3.3   |
-| react        | ^19.0.0  |
-| react-dom    | ^19.0.0  |
+| Pacote            | Versão   |
+|-------------------|----------|
+| next              |  15.3.3  |
+| react             | ^19.0.0  |
+| react-dom         | ^19.0.0  |
+|@hookform/resolvers| ^5.1.1   |
+|react-hook-form    | ^7.60.0  |
+|zod                | ^3.25.75 |
 
 ## 🛠️ Dependências de Desenvolvimento
 
