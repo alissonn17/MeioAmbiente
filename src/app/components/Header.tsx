@@ -8,13 +8,13 @@ export default function Header(): JSX.Element{
 
     return <header className="menu" style={{color:"black",
     backgroundColor:"rgb(32, 102, 207)",
-    height:"50px",
+    height:"35px",
     width:"100%",
     padding:"5px",
     display: "flex",
     justifyContent: "space-around"}}>
         <div className="flex flex-row justify-evenly w-full pr-2.5 pl-2.5">
-            <ul id="nav" className="flex justify-around w-full">
+            <ul id="nav" className="flex justify-around w-full items-center">
                 <li><Link href="#cidades">Cidades</Link></li>
                 <li><Link href="#paises">Países</Link></li>
                 <li><Link href="#sobre">Sobre</Link></li>

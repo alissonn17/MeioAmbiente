@@ -19,6 +19,12 @@
   }
 }
 
+html {
+  scroll-padding-top: 37px;
+  scroll-behavior: smooth;
+}
+
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -32,16 +38,19 @@ body {
 main {
   display: flex;
   flex-grow: 1 1 0;
-  padding-top: 20px;
   padding: 5px;
+  padding-top: 35px;
   background: linear-gradient(45deg, rgb(52, 133, 255), rgb(52, 231, 255), rgb(52, 133, 255));
   color: purple;
+}
+
+header {
+  position: fixed;
 }
 
 #last:hover, #paises div ul:hover, #cidades div ul:hover{
   background-color:  aliceblue;
   border: 2px solid black;
-  transform: scale(1.005);
 }
 
 #nav li:hover{
