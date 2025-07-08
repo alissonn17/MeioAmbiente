@@ -1,6 +1,7 @@
 "use client"
-import { JSX, useEffect, useState } from "react"
+import { JSX, useEffect, useState } from "react";
 
+// Prop dos dados serem recebidos.
 interface cityprop {
   CityInfo: [
     string,
@@ -13,10 +14,12 @@ interface cityprop {
   ];
 }
 
+// Prop name usada para busca de cidade na API.
 interface paramprop{
   name: string;
 }
 
+// Pega cidade pelo nome.
 export default function Getcityparam({name}: paramprop): JSX.Element {
   const [city, setCity] = useState<cityprop| null>(null);
 

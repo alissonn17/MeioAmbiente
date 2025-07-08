@@ -1,13 +1,15 @@
 "use client"
-import { JSX, useEffect, useState } from "react"
+import { JSX, useEffect, useState } from "react";
 
+// Prop dos dados serem recebidos.
 interface mainprop {
   Main: {
     Importancia: string;
     Dever: string;
-  };
+  }
 }
 
+// Pega informações sobre da API.
 export default function GetInfo(): JSX.Element {
   const [main, setMain] = useState<mainprop>(Object);
 

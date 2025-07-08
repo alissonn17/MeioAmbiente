@@ -1,6 +1,7 @@
 "use client"
-import { JSX, useEffect, useState } from "react"
+import { JSX, useEffect, useState } from "react";
 
+// Prop dos dados serem recebidos.
 interface countryprop {
   country: {
     Suecia: string;
@@ -13,9 +14,10 @@ interface countryprop {
     Uruguai: string;
     Portugal: string;
     França: string;
-  };
+  }
 }
 
+// Pega todas os países da API.
 export default function GetCountry(): JSX.Element {
   const [country, setCountry] = useState<countryprop>(Object);
 
@@ -41,7 +43,7 @@ export default function GetCountry(): JSX.Element {
       <ul className="bg-cyan-100 text-black p-4 rounded-2xl shadow mb-4 flex flex-wrap gap-2 max-w-6xl">
           <li>
             <h1 className="font-bold">Países e seus habitantes:</h1><br />
-            <p><strong>Suecia</strong>: {country?.country?.Suecia}</p>
+            <p><strong>Suécia</strong>: {country?.country?.Suecia}</p>
             <p><strong>Noruega</strong>: {country?.country?.Noruega}</p>
             <p><strong>Dinamarca</strong>: {country?.country?.Dinamarca}</p>
             <p><strong>Alemanha</strong>: {country?.country?.Alemanha}</p>

@@ -1,6 +1,7 @@
 "use client"
-import { JSX, useEffect, useState } from "react"
+import { JSX, useEffect, useState } from "react";
 
+// Prop dos dados serem recebidos.
 interface cityprop {
   city: {
     "Sao Paulo": number;
@@ -13,9 +14,10 @@ interface cityprop {
     Belém: number;
     Manaus: number;
     Recife: number;
-  };
+  }
 }
 
+// Pega todas as cidades da API.
 export default function GetCity(): JSX.Element {
   const [city, setCity] = useState<cityprop>(Object);
 

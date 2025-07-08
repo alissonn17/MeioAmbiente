@@ -1,6 +1,7 @@
 "use client"
-import { JSX, useEffect, useState } from "react"
+import { JSX, useEffect, useState } from "react";
 
+// Prop dos dados serem recebidos.
 interface cityprop {
     "city": {
     "Sao Paulo": {
@@ -33,9 +34,10 @@ interface cityprop {
     Recife: {
       destaqueTecnologico: string;
     }
-  };
+  }
 }
 
+// Pega os destaques tecnológicos das cidades.
 export default function GetCides(): JSX.Element {
   const [city, setCity] = useState<cityprop>(Object);
 

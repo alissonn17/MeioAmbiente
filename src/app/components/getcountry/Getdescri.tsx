@@ -1,6 +1,7 @@
 "use client"
-import { JSX, useEffect, useState } from "react"
+import { JSX, useEffect, useState } from "react";
 
+// Prop dos dados serem recebidos.
 interface countryprop {
   country: {
     Suecia: string;
@@ -12,9 +13,10 @@ interface countryprop {
     Uruguai: string;
     Portugal: string;
     França: string;
-  };
+  }
 }
 
+// Pega a descrição dos países.
 export default function Getdescri(): JSX.Element {
   const [country, setCountry] = useState<countryprop>(Object);
 

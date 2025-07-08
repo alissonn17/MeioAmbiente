@@ -1,10 +1,11 @@
 "use client"
-import { useState } from "react"
-import Getcityparam from "./Getcityparam"
-import { useForm } from "react-hook-form"
-import z from "zod"
-import { zodResolver } from "@hookform/resolvers/zod"
+import { useState } from "react";
+import Getcityparam from "./Getcityparam";
+import { useForm } from "react-hook-form";
+import z from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
 
+// Schema de validação zod.
 const schema = z.object({
   name: z.enum([
     "Sao Paulo",
@@ -20,11 +21,13 @@ const schema = z.object({
   ])
 });
 
-type schemaSearch = z.infer<typeof schema>
+// Define um tipo TypeScript baseado automaticamente no esquema 'schema' do Zod.
+type schemaSearch = z.infer<typeof schema>;
 
+// Pesquisa de cidade.
 export default function Namecity(){
-    const [result, setResult] = useState(false)
-    const [name, setName] = useState("")
+    const [result, setResult] = useState(false);
+    const [name, setName] = useState("");
 
     const {
         register,
@@ -36,9 +39,9 @@ export default function Namecity(){
     });
     
     function onSubmit(data: schemaSearch){
-        setName(data.name)
-        setResult(true)
-        reset()
+        setName(data.name);
+        setResult(true);
+        reset();
     }
 
     return (

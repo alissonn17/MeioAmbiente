@@ -1,6 +1,7 @@
 "use client"
-import { JSX, useEffect, useState } from "react"
+import { JSX, useEffect, useState } from "react";
 
+// Prop dos dados serem recebidos.
 interface countryprop {
   CountryInfo: [
     string,
@@ -9,10 +10,12 @@ interface countryprop {
   ];
 }
 
+// Prop name usada para busca de país na API.
 interface paramprop{
   name: string;
 }
 
+// Pega país pelo nome.
 export default function Getcountryparam({name}: paramprop): JSX.Element {
   const [country, setCountry] = useState<countryprop | null>(null);
 

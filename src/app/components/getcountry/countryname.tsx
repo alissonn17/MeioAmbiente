@@ -1,10 +1,11 @@
 "use client"
-import { useState } from "react"
-import Getcountryparam from "./Getcountryparam"
-import { useForm } from "react-hook-form"
-import z from "zod"
-import { zodResolver } from "@hookform/resolvers/zod"
+import { useState } from "react";
+import Getcountryparam from "./Getcountryparam";
+import { useForm } from "react-hook-form";
+import z from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
 
+// Schema de validação zod.
 const schema = z.object({
   name: z.enum([
     "Suécia",
@@ -19,8 +20,10 @@ const schema = z.object({
   ])
 });
 
-type schemaSearch = z.infer<typeof schema>
+// Define um tipo TypeScript baseado automaticamente no esquema 'schema' do Zod.
+type schemaSearch = z.infer<typeof schema>;
 
+// Pesquisa de país.
 export default function Namecountry(){
     const [result, setResult] = useState(false)
     const [name, setName] = useState("")
