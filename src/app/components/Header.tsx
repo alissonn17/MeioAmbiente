@@ -9,7 +9,7 @@ export default function Header(): JSX.Element{
     return <header className="menu" style={{color:"black",
     backgroundColor:"rgb(32, 102, 207)",
     height:"50px",
-    width:"100vw",
+    width:"100%",
     padding:"5px",
     display: "flex",
     justifyContent: "space-around"}}>
